@@ -126,8 +126,13 @@ class CooperativaCompletaCreate(BaseModel):
     telefone: Optional[str] = None
     capacidade_producao: Optional[int] = None
 
-class EmpresaCompletaCreate(BaseModel):
+class Empresa(BaseModel):
     id_empresa: int
     cnpj: str
+    nome_fantasia: Optional[str] = None
+    tempo_atuacao: Optional[int] = None
+
+class EmpresaUpdate(BaseModel):
+    cnpj: Optional[str] = None
     nome_fantasia: Optional[str] = None
     tempo_atuacao: Optional[int] = None
