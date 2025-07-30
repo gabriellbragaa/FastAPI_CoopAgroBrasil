@@ -12,14 +12,10 @@ API para gerenciamento de Cooperativas com operações CRUD completas.
 ## Configuração do Ambiente Linux
 
 1. **Clone o repositório**:
-
-
-   ```bash
+  ```bash
    git clone [https://github.com/seu-usuario/seu-projeto.git](https://github.com/gabriellbragaa/FastAPI_CoopAgroBrasil.git)
 
 2. **Entre no terminal**:
-
-
    cd FastAPI_CoopAgroBrasil
    cd app
    python -m uvicorn main:app --reload --port 8001 # para rodar o projeto
